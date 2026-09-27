@@ -1,4 +1,4 @@
-# My C Programming Journey
+# C Programming 
 
 This repository contains my C programs, practice exercises, and small projects as I learn the language.
 
