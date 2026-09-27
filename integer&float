@@ -6,12 +6,9 @@ int main() {
     float decimal_number;
 
     printf("Enter i/p's : ");
-    if (scanf("%d %f", &number, &decimal_number) != 2) {
-        printf("Invalid input\n");
-        return 1;
-    }
+    scanf("%d %f",&number , &decimal_number);
 
-    printf("Number : %d\n", number);
-    printf("Decimal Number : %.1f\n", decimal_number);
+    printf("Number : %d", number);
+    printf("\nDecimal Number : %.1f", decimal_number);
     return 0;
 }
