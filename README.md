@@ -1,10 +1,12 @@
-# C Programs for Beginners
+# My C Programming Journey
 
-A collection of beginner-friendly C programming examples and exercises.
+This repository contains my C programs, practice exercises, and small projects as I learn the language.
 
-## About
+I created it to track my progress, experiment with code, and keep the programs I write while improving my programming skills.
 
-This repository is designed to help new programmers learn the fundamentals of the C programming language, including:
+## What I'm Learning
+
+My practice currently includes:
 
 - Variables and data types
 - Input and output
@@ -14,26 +16,25 @@ This repository is designed to help new programmers learn the fundamentals of th
 - Arrays
 - Strings
 - Pointers
-- Basic problem-solving
+- Problem-solving with C
 
-## Requirements
+This repository will grow as I learn more and build new programs.
 
-To compile and run these programs, you need a C compiler such as:
+## Running the Programs
 
-- GCC
-- Clang
-- Microsoft Visual C
+You need a C compiler such as GCC, Clang, or Microsoft Visual C.
 
-## How to Compile and Run
-
-Using GCC:
+With GCC, compile a program using:
 
 ```bash
 gcc program.c -o program
-./program
 ```
 
-Replace `program.c` with the name of the C file you want to compile.
+Then run it on macOS or Linux:
+
+```bash
+./program
+```
 
 On Windows, run:
 
@@ -41,7 +42,11 @@ On Windows, run:
 program.exe
 ```
 
+Replace `program.c` and `program` with the name you want to use for the C file and compiled program.
+
 ## Example
+
+One of the simplest programs I practice with is:
 
 ```c
 #include <stdio.h>
@@ -52,17 +57,13 @@ int main(void) {
 }
 ```
 
-Compile it with:
+To compile and run it with GCC:
 
 ```bash
 gcc hello.c -o hello
 ./hello
 ```
 
-## Contributing
+## About This Repository
 
-Suggestions, improvements, and beginner-friendly examples are welcome. Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is available under the MIT License.
+The programs here are part of my learning journey. Some may be simple, experimental, or unfinished—and that is okay. They show what I am practicing and how my code develops over time.
